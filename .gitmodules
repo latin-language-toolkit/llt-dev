@@ -1,0 +1,30 @@
+[submodule "llt-db_handler"]
+	path = llt-db_handler
+	url = git@github.com:latin-language-toolkit/llt-db_handler.git
+[submodule "llt-segmenter"]
+	path = llt-segmenter
+	url = git@github.com:latin-language-toolkit/llt-segmenter.git
+[submodule "llt-tokenizer"]
+	path = llt-tokenizer
+	url = git@github.com:latin-language-toolkit/llt-tokenizer.git
+[submodule "llt-core"]
+	path = llt-core
+	url = git@github.com:latin-language-toolkit/llt-core.git
+[submodule "llt"]
+	path = llt
+	url = git@github.com:latin-language-toolkit/llt.git
+[submodule "llt-logger"]
+	path = llt-logger
+	url = git@github.com:latin-language-toolkit/llt-logger.git
+[submodule "llt-helpers"]
+	path = llt-helpers
+	url = git@github.com:latin-language-toolkit/llt-helpers.git
+[submodule "llt-core_extensions"]
+	path = llt-core_extensions
+	url = git@github.com:latin-language-toolkit/llt-core_extensions.git
+[submodule "llt-constants"]
+	path = llt-constants
+	url = git@github.com:latin-language-toolkit/llt-constants.git
+[submodule "llt-form_builder"]
+	path = llt-form_builder
+	url = git@github.com:latin-language-toolkit/llt-form_builder.git
