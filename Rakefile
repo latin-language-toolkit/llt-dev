@@ -38,6 +38,12 @@ namespace :gems do
   end
 end
 
+desc 'Run a nailgun server as background job'
+task :ng do
+  # nailgun falls when there are jruby opts defined
+  exec 'JRUBY_OPTS= jruby --ng-server'
+end
+
 task default: 'gems:spec'
 
 class SpecFailed < StandardError; end
