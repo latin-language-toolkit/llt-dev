@@ -3,7 +3,7 @@ require 'colorize'
 namespace :gems do
   desc "Run all examples of extracted gems indepently within their Bundler context"
   task :spec do
-    results = Dir.glob("llt-*").map do |dir|
+    results = Dir.glob("llt*").map do |dir|
       run_in_directory(dir)
     end
 
@@ -17,7 +17,7 @@ namespace :gems do
 
   desc 'Bundle update all gems'
   task :bu do
-    Dir.glob("llt-*").map do |dir|
+    Dir.glob("llt*").map do |dir|
       run_in_directory(dir, 'bundle update')
     end
   end
