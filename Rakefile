@@ -32,12 +32,16 @@ end
 
 task default: 'gems:spec'
 
+class SpecFailed < StandardError; end
+
 def run_in_directory(dir, command = 'rake')
-  Dir.chdir(dir) do
+  res = Dir.chdir(dir) do
     Bundler.with_clean_env do
       system(command)
     end
   end
+
+  raise SpecFailed.new unless res
 end
 
 def llt_dirs
