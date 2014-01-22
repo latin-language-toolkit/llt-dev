@@ -1,30 +1,40 @@
 [submodule "llt-db_handler"]
 	path = llt-db_handler
 	url = git@github.com:latin-language-toolkit/llt-db_handler.git
+  branch = master
 [submodule "llt-segmenter"]
 	path = llt-segmenter
 	url = git@github.com:latin-language-toolkit/llt-segmenter.git
+  branch = master
 [submodule "llt-tokenizer"]
 	path = llt-tokenizer
 	url = git@github.com:latin-language-toolkit/llt-tokenizer.git
+  branch = master
 [submodule "llt-core"]
 	path = llt-core
 	url = git@github.com:latin-language-toolkit/llt-core.git
+  branch = master
 [submodule "llt"]
 	path = llt
 	url = git@github.com:latin-language-toolkit/llt.git
+	branch = master
 [submodule "llt-logger"]
 	path = llt-logger
 	url = git@github.com:latin-language-toolkit/llt-logger.git
+  branch = master
 [submodule "llt-helpers"]
 	path = llt-helpers
 	url = git@github.com:latin-language-toolkit/llt-helpers.git
+  branch = master
 [submodule "llt-core_extensions"]
 	path = llt-core_extensions
 	url = git@github.com:latin-language-toolkit/llt-core_extensions.git
+  branch = master
 [submodule "llt-constants"]
 	path = llt-constants
 	url = git@github.com:latin-language-toolkit/llt-constants.git
+  branch = master
 [submodule "llt-form_builder"]
 	path = llt-form_builder
 	url = git@github.com:latin-language-toolkit/llt-form_builder.git
+  branch = master
