@@ -1,5 +1,13 @@
 require 'colorize'
 
+namespace :git do
+  desc 'Update all git submodules to their current master tip'
+  task :update do
+    system('git submodule update --remote')
+    system(%{git submodule foreach -q --recursive 'branch="$(git config -f $toplevel/.gitmodules submodule.$name.branch)"; git checkout $branch' >/dev/null 2>&1})
+  end
+end
+
 namespace :gems do
   desc "Run all examples of extracted gems indepently within their Bundler context"
   task :spec do
