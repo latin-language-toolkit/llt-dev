@@ -38,3 +38,7 @@
 	path = llt-form_builder
 	url = git@github.com:latin-language-toolkit/llt-form_builder.git
   branch = master
+[submodule "llt-db_handler-stub"]
+	path = llt-db_handler-stub
+	url = git@github.com:latin-language-toolkit/llt-db_handler-stub.git
+  branch = master
